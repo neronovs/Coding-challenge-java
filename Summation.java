@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Test {
 
-    //Exponentiation
+    //Summation
     public static int Summation(int n) {
         if (n <= 0) return 0;
         else return n + Summation(n - 1);
