@@ -15,7 +15,7 @@ public class Solution {
             }
         }
         //Summing numbers from the array pattern "hourglasses"
-        int temp = 0, res = 0;
+        int temp = 0, res = -64;
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
                 temp = arr[0 + i][0 + j] + arr[0 + i][1 + j] + arr[0 + i][2 + j] +
